@@ -15,7 +15,7 @@ struct Photo: Codable {
 }
 
 struct Results: Codable {
-    let page: Int
+    let page: Int?
     let pages: Int
     let perpage: Int
     let total: String
